@@ -1,0 +1,91 @@
+body{
+    margin:  0 auto;
+}
+.container{
+    display: flex;
+    margin: 100px 250px 0 250px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+h1{
+    color:  hsl(0, 0%, 95%);
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.first{
+    background-color: hsl(31, 77%, 52%);
+    padding: 45px;
+    border-radius: 5px 0 0 5px;
+}
+#btn1{
+    color: hsl(31, 77%, 52%);
+}
+.second{
+    background-color: hsl(184, 100%, 22%);
+    padding: 45px;
+}
+#btn2{
+    color: hsl(184, 100%, 22%);
+}
+.third{
+    background-color: hsl(179, 100%, 13%);
+    padding: 45px;
+    border-radius: 0 5px 5px 0;
+
+}
+#btn3{
+    color: hsl(179, 100%, 13%);
+}
+.button{
+    padding-top: 60px;
+
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+}
+@media (max-width: 375px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin: 15px 70px 5px 70px;
+        font-size: 14px;
+    }
+    .button{
+        padding-top: 2px;
+        padding-bottom: 25px;
+    
+    }
+    .btn{
+        width: 90px;
+        height: 30px;
+        border-radius: 20px;
+        border: none;
+        font-size: 9px;
+    }
+    .first{
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 5px 5px 0 0;
+        padding: 25px 25px 5px 25px;
+    }
+    #btn1{
+        color: hsl(31, 77%, 52%);
+    }
+    .second{
+        background-color: hsl(184, 100%, 22%);
+        padding: 25px 15px 5px 25px;
+    }
+    #btn2{
+        color: hsl(184, 100%, 22%);
+    }
+    .third{
+        background-color: hsl(179, 100%, 13%);
+        padding: 25px 15px 5px 25px;
+        border-radius: 0 0 5px 5px;
+    
+    }
+}
